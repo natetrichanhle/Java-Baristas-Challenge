@@ -3,6 +3,7 @@ public class Item {
     // MEMBER VARIABLES
     private String name;
     private double price;
+    private int index;
 
     // CONSTRUCTOR
     // Takes a name and price as arguments
@@ -31,5 +32,13 @@ public class Item {
     // Item price setter
     public void setItemPrice(double price){
         this.price = price;
+    }
+
+    public int getItemIndex(){
+        return index;
+    }
+
+    public void setItemIndex(int index){
+        this.index = index;
     }
 }

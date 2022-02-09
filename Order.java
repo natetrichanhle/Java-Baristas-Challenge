@@ -6,7 +6,7 @@ public class Order {
     // MEMBER VARIABLES
     private String name; // default value of null
     private boolean ready; // default value false
-    private ArrayList<Item> items; // defaults to null
+    private ArrayList<Item> items = new ArrayList<Item>(); // defaults to null
 
     // CONSTRUCTOR
     // No arguments, sets name to "Guest", initializes items as an empty list.
